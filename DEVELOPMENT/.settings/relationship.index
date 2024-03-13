@@ -529,11 +529,11 @@
     "version" : "Latest",
     "type" : "property"
   }, {
-    "id" : "_gT4NanPyEe6r6fkQlRUOyQ - Customers",
+    "id" : "_heBqEOE0Ee6GSsFWOe9qIg",
     "version" : "Latest",
-    "type" : "schema"
+    "type" : "property"
   }, {
-    "id" : "_gT4NanPyEe6r6fkQlRUOyQ - orders",
+    "id" : "_gT4NanPyEe6r6fkQlRUOyQ - Customers",
     "version" : "Latest",
     "type" : "schema"
   } ]
