@@ -4,8 +4,8 @@
     <migrationTask xmi:id="_Q-940GcxEe6ZaMjYtlH1ag" id="org.talend.repository.model.migration.CheckProductVersionMigrationTask" breaks="7.1.0" version="7.1.1"/>
   </TalendProperties:Project>
   <TalendProperties:User xmi:id="_Q9AJ8mcxEe6ZaMjYtlH1ag" login="harsh.p@predoolecom_nfr" firstName="harsh.p" lastName="removed" type="DQ"/>
-  <TalendProperties:User xmi:id="_GaQX0KPVEe604ft9QbTcCw" login="georgek@predoolecom_nfr" firstName="George" lastName="Koshy" type="DQ"/>
-  <TalendProperties:User xmi:id="_GaQX0aPVEe604ft9QbTcCw" login="pranita.p@predoolecom_nfr" firstName="Pranita" lastName="Patole" type="DQ"/>
-  <TalendProperties:User xmi:id="_GaQX0qPVEe604ft9QbTcCw" login="megha.m@predoolecom_nfr" firstName="Megha" lastName="More" type="DQ"/>
-  <TalendProperties:User xmi:id="_eiDk0OELEe6OtKrUQSA9Jg" login="mrunalsinh.p@predoolecom_nfr" firstName="Mrunalsinh" lastName="Patil" type="DQ"/>
+  <TalendProperties:User xmi:id="_Dc0LIOEyEe6lgeKjZXukug" login="georgek@predoolecom_nfr" firstName="George" lastName="Koshy" type="DQ"/>
+  <TalendProperties:User xmi:id="_Dc0LIeEyEe6lgeKjZXukug" login="pranita.p@predoolecom_nfr" firstName="Pranita" lastName="Patole" type="DQ"/>
+  <TalendProperties:User xmi:id="_Dc0LIuEyEe6lgeKjZXukug" login="megha.m@predoolecom_nfr" firstName="Megha" lastName="More" type="DQ"/>
+  <TalendProperties:User xmi:id="_Dc0LI-EyEe6lgeKjZXukug" login="mrunalsinh.p@predoolecom_nfr" firstName="Mrunalsinh" lastName="Patil" type="DQ"/>
 </xmi:XMI>
