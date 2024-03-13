@@ -1,0 +1,38 @@
+{
+  "itemId" : "_rG6PUEvYEe6qetjczYASWQ",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_xR3msEsdEe6qetjczYASWQ",
+    "parameterList" : [ {
+      "id" : "_mLGRIEseEe6qetjczYASWQ",
+      "name" : "job_pid"
+    }, {
+      "id" : "_mLGRIUseEe6qetjczYASWQ",
+      "name" : "job_name"
+    }, {
+      "id" : "_mLGRIkseEe6qetjczYASWQ",
+      "name" : "job_status"
+    }, {
+      "id" : "_mLGRI0seEe6qetjczYASWQ",
+      "name" : "start_time"
+    }, {
+      "id" : "_mLGRJEseEe6qetjczYASWQ",
+      "name" : "end_time"
+    }, {
+      "id" : "_mLGRJUseEe6qetjczYASWQ",
+      "name" : "src_cnt"
+    }, {
+      "id" : "_mLGRJkseEe6qetjczYASWQ",
+      "name" : "tgt_cnt"
+    }, {
+      "id" : "_mLGRJ0seEe6qetjczYASWQ",
+      "name" : "lkp_cnt"
+    }, {
+      "id" : "_mLGRKEseEe6qetjczYASWQ",
+      "name" : "rej_cnt"
+    }, {
+      "id" : "_mLGRKUseEe6qetjczYASWQ",
+      "name" : "exec_key"
+    } ]
+  } ]
+}
