@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
-  <TalendProperties:Project xmi:id="_Q9AJ8WcxEe6ZaMjYtlH1ag" label="Development" language="java" technicalLabel="DEVELOPMENT" author="_Q9AJ8mcxEe6ZaMjYtlH1ag" productVersion="Talend Cloud Data Fabric-8.0.1.20230719_1030-patch" url="{&quot;commitLogPattern&quot;:&quot;{0}&quot;,&quot;location&quot;:&quot;https://github.com/PredooleTalend2023/cloud_repo.git&quot;,&quot;settings&quot;:&quot;000&quot;,&quot;storage&quot;:&quot;git&quot;}" type="DQ" itemsRelationVersion="1.3" bigData="false">
+  <TalendProperties:Project xmi:id="_Q9AJ8WcxEe6ZaMjYtlH1ag" label="Development" language="java" technicalLabel="DEVELOPMENT" author="_Q9AJ8mcxEe6ZaMjYtlH1ag" productVersion="Talend Cloud Data Fabric-8.0.1.20240118_0425-patch" url="{&quot;commitLogPattern&quot;:&quot;{0}&quot;,&quot;location&quot;:&quot;https://github.com/PredooleTalend2023/cloud_repo.git&quot;,&quot;settings&quot;:&quot;000&quot;,&quot;storage&quot;:&quot;git&quot;}" type="DQ" itemsRelationVersion="1.3" bigData="false">
     <migrationTask xmi:id="_Q-940GcxEe6ZaMjYtlH1ag" id="org.talend.repository.model.migration.CheckProductVersionMigrationTask" breaks="7.1.0" version="7.1.1"/>
   </TalendProperties:Project>
-  <TalendProperties:User xmi:id="_Q9AJ8mcxEe6ZaMjYtlH1ag" login="harsh.p@predoolecom_nfr" firstName="harsh" lastName="patel" type="DQ"/>
+  <TalendProperties:User xmi:id="_Q9AJ8mcxEe6ZaMjYtlH1ag" login="harsh.p@predoolecom_nfr" firstName="harsh.p" lastName="removed" type="DQ"/>
+  <TalendProperties:User xmi:id="_GaQX0KPVEe604ft9QbTcCw" login="georgek@predoolecom_nfr" firstName="George" lastName="Koshy" type="DQ"/>
+  <TalendProperties:User xmi:id="_GaQX0aPVEe604ft9QbTcCw" login="pranita.p@predoolecom_nfr" firstName="Pranita" lastName="Patole" type="DQ"/>
+  <TalendProperties:User xmi:id="_GaQX0qPVEe604ft9QbTcCw" login="megha.m@predoolecom_nfr" firstName="Megha" lastName="More" type="DQ"/>
+  <TalendProperties:User xmi:id="_eiDk0OELEe6OtKrUQSA9Jg" login="mrunalsinh.p@predoolecom_nfr" firstName="Mrunalsinh" lastName="Patil" type="DQ"/>
 </xmi:XMI>
