@@ -132,6 +132,25 @@
   } ]
 }, {
   "baseItem" : {
+    "id" : "_OUnNYOEtEe6OtKrUQSA9Jg",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_gT4NanPyEe6r6fkQlRUOyQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_gT4NanPyEe6r6fkQlRUOyQ - Customers",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_gT4NanPyEe6r6fkQlRUOyQ - orders",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
     "id" : "_OdLPIEJeEe6BS-0O0A90pA",
     "version" : "0.1",
     "type" : "job"
@@ -156,7 +175,7 @@
     "type" : "job"
   },
   "relatedItems" : [ {
-    "id" : "_YuISsFxWEe6Kaq5HzQ5SqA",
+    "id" : "_MbBrAOEsEe6OtKrUQSA9Jg",
     "version" : "Latest",
     "type" : "property"
   } ]
