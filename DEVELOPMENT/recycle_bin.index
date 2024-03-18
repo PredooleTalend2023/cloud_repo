@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<recyclebin:RecycleBin xmlns:recyclebin="http://www.talend.org/recyclebin">
+  <deletedFolders>process/Megha/Qlik_demo_26_10_23</deletedFolders>
+  <deletedFolders>process/Megha/Sumit</deletedFolders>
+  <deletedFolders>process/Megha/Sumit/Partition_Jobs</deletedFolders>
+  <deletedFolders>process/Megha/TalendDemo/DemoJobs_26_9_23</deletedFolders>
+  <deletedFolders>process/Megha/TalendDemo/DemoJobs_26_9_23/Incremental</deletedFolders>
+  <deletedFolders>process/Megha/TalendDemo/DemoJobs_26_9_23/Parallization</deletedFolders>
+  <deletedFolders>process/Megha/TalendDemo/DemoJobs_26_9_23/Steward_and_preparation</deletedFolders>
+  <deletedFolders>process/Megha/TalendDemo/Demo_job_04_10_23</deletedFolders>
+  <deletedFolders>process/Megha/TalendDemo/Demo_job_04_10_23/Data_Aggregation</deletedFolders>
+  <deletedFolders>process/Megha/TalendDemo/Demo_job_04_10_23/Data_preparation</deletedFolders>
+  <deletedFolders>process/Megha/TalendDemo/Demo_job_04_10_23/Data_stewardship</deletedFolders>
+  <deletedFolders>process/Megha/TalendDemo/Demo_job_04_10_23/SCD2</deletedFolders>
+  <deletedFolders>process/Megha/TalendDemo/Talend_demo_21_09_23</deletedFolders>
+  <deletedFolders>process/Megha/TalendDemo/udemy_test_jobs</deletedFolders>
+  <deletedItems id="_noP74DLFEe6YCNhEfH_DPw" path="" type="METADATA_CONNECTIONS"/>
+  <deletedItems id="_6bKsoFhGEe69bKoNEun9KA" path="Megha" type="METADATA_CONNECTIONS"/>
+  <deletedItems id="_HkvH0EGGEe6UysSrJjFATg" path="Megha" type="METADATA_CONNECTIONS"/>
+  <deletedItems id="_YuISsFxWEe6Kaq5HzQ5SqA" path="Megha" type="METADATA_CONNECTIONS"/>
+  <deletedItems id="_EnHicOEvEe6OtKrUQSA9Jg" path="Megha/Megha/udemy_test_jobs" type="PROCESS"/>
+  <deletedItems id="_U8rdIDUAEe6g0ZNH9Eq4tw" path="Sumit/Partition_Jobs" type="PROCESS"/>
+</recyclebin:RecycleBin>
