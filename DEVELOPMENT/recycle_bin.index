@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <recyclebin:RecycleBin xmlns:recyclebin="http://www.talend.org/recyclebin">
+  <deletedFolders>metadata/snowflake/Megha</deletedFolders>
   <deletedFolders>process/Megha/Qlik_demo_26_10_23</deletedFolders>
   <deletedFolders>process/Megha/Sumit</deletedFolders>
   <deletedFolders>process/Megha/Sumit/Partition_Jobs</deletedFolders>
