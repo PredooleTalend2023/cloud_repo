@@ -64,10 +64,6 @@
     "type" : "job"
   },
   "relatedItems" : [ {
-    "id" : "_Ig6A0Dj6Ee-Lf_L9zPWogQ",
-    "version" : "Latest",
-    "type" : "property"
-  }, {
     "id" : "_Ig6A0Dj6Ee-Lf_L9zPWogQ - SIPTransactions",
     "version" : "Latest",
     "type" : "schema"
@@ -79,14 +75,6 @@
     "type" : "job"
   },
   "relatedItems" : [ {
-    "id" : "_Ig6A0Dj6Ee-Lf_L9zPWogQ",
-    "version" : "Latest",
-    "type" : "property"
-  }, {
-    "id" : "_JbyicDj_Ee-Lf_L9zPWogQ",
-    "version" : "Latest",
-    "type" : "property"
-  }, {
     "id" : "_Ig6A0Dj6Ee-Lf_L9zPWogQ - Investors",
     "version" : "Latest",
     "type" : "schema"
