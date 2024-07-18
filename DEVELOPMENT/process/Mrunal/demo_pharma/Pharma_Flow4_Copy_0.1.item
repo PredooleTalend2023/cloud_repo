@@ -108,8 +108,8 @@
     <elementParameter field="CLOSED_LIST" name="DRIVER" value="MSSQL_PROP"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="MSSQL"/>
     <elementParameter field="TEXT" name="PORT" value="&quot;1433&quot;"/>
-    <elementParameter field="TEXT" name="DB_SCHEMA" value="&quot;pharma_demo&quot;"/>
-    <elementParameter field="TEXT" name="DBNAME" value="&quot;Pharma_Demo&quot;"/>
+    <elementParameter field="TEXT" name="DB_SCHEMA" value="&quot;dbo&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME" value="&quot;Insurance_Demo_SS&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;megha&quot;"/>
     <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:pnCoGEVQ5OBQ6ReNML+e59BhK8sI/DoHHpQKWrkGnF0lI7IiI5eKU4iF"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;drugs&quot;"/>
@@ -153,6 +153,8 @@
     <elementParameter field="CHECK" name="USE_PREP_PATH" value="false"/>
     <elementParameter field="DATA_PREP_ID" name="PREPARATION_ID" value="&quot;26f42cdd-c020-4239-a511-7106c9a88bf5&quot;"/>
     <elementParameter field="TEXT" name="PREPARATION_NAME" show="false" value="Megha_Pharma_Demo"/>
+    <elementParameter field="DP_VERSION" name="VERSION_NAME" value=""/>
+    <elementParameter field="TEXT" name="VERSION_ID" show="false" value=""/>
     <elementParameter field="TEXT" name="PREPARATION_PATH" show="false" value="&quot;folder/preparation&quot;"/>
     <elementParameter field="TEXT" name="PREPARATION_VERSION" show="false" value="&quot;Current state&quot;"/>
     <elementParameter field="FETCH_SCHEMA" name="FETCH_SCHEMA" value=""/>
@@ -175,8 +177,8 @@
     <elementParameter field="CLOSED_LIST" name="DRIVER" value="MSSQL_PROP"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="MSSQL"/>
     <elementParameter field="TEXT" name="PORT" value="&quot;1433&quot;"/>
-    <elementParameter field="TEXT" name="DB_SCHEMA" value="&quot;pharma_demo&quot;"/>
-    <elementParameter field="TEXT" name="DBNAME" value="&quot;Pharma_Demo&quot;"/>
+    <elementParameter field="TEXT" name="DB_SCHEMA" value="&quot;dbo&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME" value="&quot;Insurance_Demo_SS&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;megha&quot;"/>
     <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:KgzRs7zz7WDHehZNcFsxMNx1mgzoAdI7hNthnHGxh4fj5FipTX27cAy3"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;medicationdrugs&quot;"/>
@@ -223,7 +225,7 @@
     <elementParameter field="EXTERNAL" name="MAP" value=""/>
     <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
     <elementParameter field="DIRECTORY" name="TEMPORARY_DATA_DIRECTORY" value=""/>
-    <elementParameter field="IMAGE" name="PREVIEW" value="_TGfYQCMpEe-b8t9hh6Yleg-tMap_1-PREVIEW.bmp"/>
+    <elementParameter field="IMAGE" name="PREVIEW" value="_wQOyEDVSEe-AruXmKr8rVQ-tMap_1-PREVIEW.bmp"/>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" show="false" value="true"/>
     <elementParameter field="CHECK" name="LKUP_PARALLELIZE" show="false" value="false"/>
     <elementParameter field="TEXT" name="LEVENSHTEIN" show="false" value="0"/>
@@ -244,7 +246,7 @@
       </column>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
-      <uiProperties shellMaximized="true"/>
+      <uiProperties/>
       <varTables minimized="true" name="Var" sizeState="INTERMEDIATE"/>
       <outputTables name="out2" sizeState="INTERMEDIATE">
         <mapperTableEntries expression="row1.DrugID " name="DrugID" type="id_Integer"/>
@@ -382,13 +384,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="0;0;0"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="247;247;247"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_38ca0d32-b577-4ae2-ac75-4529e1a6fb36"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>DK6xQK9BULYTFmKDigiyO2pXI6iKgrC/fVKiS2kXziH+o715t58OegL+yuLAG00SOL6wxTlOTBvs&#13;
-3cuz4kth4A==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_42c45301-5e71-43e4-83d7-02e9373a1cb1"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>Nysph2uHnsM8mTp1KzVD//iDs1vlg0XNjs+3qrxBd1ySbAif8y/lopmcoqPy7Bv067gXuWRrXxHQ&#13;
-AMJZq/Okqg==</DigestValue></Reference></SignedInfo><SignatureValue>QX+syUnfiGxFda+65DaWHVdHJ4TNdZtWd5FH74AkYbG5n+BUwLoQ7cXPBNuUtUlBCAjPI6cskl9Y&#13;
-5BZs3GKyTMyaqOpuGXjUn1uklluMUehFtYmxOV4MpyY5rg9vSLK+BawtIei0hM/EsoVwima8Grnq&#13;
-r3Yl5p+eO9GIdRx021ryH6rJZJ10zh+NiGGZ/UlsfQRxI2egJCxpCCQ0kWo5TnLXXbbweMyAtf5B&#13;
-5K6+SMHz7DVNIQxzsy7+vbxsE2fFSKUssn1eEBLRBthc/9tLdTSQYTLkAA916IEPgpDwbu9+Z/Oh&#13;
-z1/vsH3pzJsmuaUQuKfs7+1xr7DbuCPBWK1IOg==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_9d075660-ff74-45f3-a400-a9e7272b7064"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>2tSLoirsDBse5Dvqq3MwFl0NRS9JHuc1BzL5X0Y9KJmhlKMgBqiKxSw7MUQ72lXeDkL1vJ6pQk6z&#13;
+ccW21h2H2A==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_876c0ee8-bad5-487c-ab56-027d7fb7469b"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>TOACUqXZuj2QxpXX4u54D4eJp7/TjEgVW+vCmkrIawiEzOp4Z8zBXuArdzi1JYWgan98eMfi0kv7&#13;
+gtr3grTGKw==</DigestValue></Reference></SignedInfo><SignatureValue>HOgAQ8enrnrYU0BPeaVLJ3eOtHzytfNIrA4PP0071U51jaANmcdqGgschFd+1LuFT52z9z6OAf9k&#13;
+8ebYxDPEYNlj06D0IJk259G0cJQ7aUWrPxaM1yjeDEhwRZiyiZXkPDq109WlY2fwJPPmy0Do4n8r&#13;
+qmitlRpSE+QzMAeJ0rCIYpOWuy3+sZ/zuCy81axbDJY/dKpXwXSgwU/VK/mQDuqQPNb1nIaQeBsF&#13;
+McBuZrp3KYP4/JKtFDdPZ8+tNtQlHgJkFycKfxFRpBrc7ciUmKM24LW42m+XRlrFJNHZjEaICqus&#13;
+1BJgYZxL0pO3ZgjsvnMuFd+fOWgJbQ//dx1sgA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -410,4 +412,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_42c45301-5e71-43e4-83d7-02e9373a1cb1" Target="#_38ca0d32-b577-4ae2-ac75-4529e1a6fb36"><Timestamp>2024-06-28 13:31:41</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_876c0ee8-bad5-487c-ab56-027d7fb7469b" Target="#_9d075660-ff74-45f3-a400-a9e7272b7064"><Timestamp>2024-07-12 06:28:04</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
