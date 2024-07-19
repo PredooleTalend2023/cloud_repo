@@ -102,14 +102,12 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBInput_6"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" show="false" value=""/>
-    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
-    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" show="false" value="_Ig6A0Dj6Ee-Lf_L9zPWogQ"/>
     <elementParameter field="TEXT" name="HOST" value="&quot;20.204.123.250&quot;"/>
     <elementParameter field="CLOSED_LIST" name="DRIVER" value="MSSQL_PROP"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="MSSQL"/>
     <elementParameter field="TEXT" name="PORT" value="&quot;1433&quot;"/>
     <elementParameter field="TEXT" name="DB_SCHEMA" value="&quot;dbo&quot;"/>
-    <elementParameter field="TEXT" name="DBNAME" value="&quot;Finance_Dev&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME" value="&quot;Finance_Demo_SS&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;qdimainuser&quot;"/>
     <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:g1J1C3d9KnIa2apoVl6u75sWwVn6QLaW9j5+h62Ro/CzoH3rMpgWbaGK"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
@@ -273,13 +271,13 @@
     <elementParameter field="CLOSED_LIST" name="DRIVER" value="MSSQL_PROP"/>
     <elementParameter field="TEXT" name="HOST" value="&quot;20.204.123.250&quot;"/>
     <elementParameter field="TEXT" name="PORT" value="&quot;1433&quot;"/>
-    <elementParameter field="TEXT" name="DB_SCHEMA" value="&quot;Landing&quot;"/>
-    <elementParameter field="TEXT" name="DBNAME" value="&quot;Finance_Dev&quot;"/>
+    <elementParameter field="TEXT" name="DB_SCHEMA" value="&quot;landing&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME" value="&quot;Finance_Demo_SS&quot;"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="MSSQL"/>
     <elementParameter field="TEXT" name="USER" value="&quot;qdimainuser&quot;"/>
     <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:5nLJ1EVDf7FbWEcuinmEaNPgc3JKeZvEn1jE9lvZpZyQvtbEVT0FaejV"/>
-    <elementParameter field="DBTABLE" name="TABLE" value="&quot;AGGREGATE_LANDING&quot;"/>
-    <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="CREATE_IF_NOT_EXISTS"/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;Aggregate&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="DROP_IF_EXISTS_AND_CREATE"/>
     <elementParameter field="CHECK" name="IDENTITY_INSERT" value="false"/>
     <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="INSERT"/>
     <elementParameter field="LABEL" name="NOTE" show="false" value="NOTE: batch size must be less than or equal to total number of parameter markers divided by number of columns"/>
@@ -353,14 +351,12 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBInput_7"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" show="false" value=""/>
-    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
-    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" show="false" value="_Ig6A0Dj6Ee-Lf_L9zPWogQ"/>
     <elementParameter field="TEXT" name="HOST" value="&quot;20.204.123.250&quot;"/>
     <elementParameter field="CLOSED_LIST" name="DRIVER" value="MSSQL_PROP"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="MSSQL"/>
     <elementParameter field="TEXT" name="PORT" value="&quot;1433&quot;"/>
     <elementParameter field="TEXT" name="DB_SCHEMA" value="&quot;dbo&quot;"/>
-    <elementParameter field="TEXT" name="DBNAME" value="&quot;Finance_Dev&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME" value="&quot;Finance_Demo_SS&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;qdimainuser&quot;"/>
     <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:RbtRKIqWc0sNGytVL35atJ2ik9qGoKLN/bgkadK4Mt5EJEvA5LJtezPw"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
@@ -428,14 +424,12 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBInput_5"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" show="false" value=""/>
-    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
-    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" show="false" value="_Ig6A0Dj6Ee-Lf_L9zPWogQ"/>
     <elementParameter field="TEXT" name="HOST" value="&quot;20.204.123.250&quot;"/>
     <elementParameter field="CLOSED_LIST" name="DRIVER" value="MSSQL_PROP"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="MSSQL"/>
     <elementParameter field="TEXT" name="PORT" value="&quot;1433&quot;"/>
     <elementParameter field="TEXT" name="DB_SCHEMA" value="&quot;dbo&quot;"/>
-    <elementParameter field="TEXT" name="DBNAME" value="&quot;Finance_Dev&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME" value="&quot;Finance_Demo_SS&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;qdimainuser&quot;"/>
     <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:psJsl1v2mygpfQBQ5dOK8OvKzU1ixDq+dLubgq85KSsjVNfmysUoGqQc"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
@@ -493,24 +487,22 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBInput_4"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" show="false" value=""/>
-    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
-    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" show="false" value="_JbyicDj_Ee-Lf_L9zPWogQ"/>
     <elementParameter field="TEXT" name="HOST" value="&quot;20.204.123.250&quot;"/>
     <elementParameter field="CLOSED_LIST" name="DRIVER" value="MSSQL_PROP"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="MSSQL"/>
     <elementParameter field="TEXT" name="PORT" value="&quot;1433&quot;"/>
     <elementParameter field="TEXT" name="DB_SCHEMA" value="&quot;landing&quot;"/>
-    <elementParameter field="TEXT" name="DBNAME" value="&quot;Finance_Dev&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME" value="&quot;Finance_Demo_SS&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;qdimainuser&quot;"/>
     <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:GK0v2l9xxLgaFrB7Ax6bb6FHXSrgLKIIi5yX7Jgsp4Q2H+9kaidb4Oik"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" show="false" value="_JbyicDj_Ee-Lf_L9zPWogQ - AGGREGATE_LANDING"/>
-    <elementParameter field="DBTABLE" name="TABLE" value="&quot;AGGREGATE_LANDING&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;Aggregate&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
     <elementParameter field="GUESS_SCHEMA" name="GUESS_SCHEMA" value="&quot;&quot;"/>
-    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;select * from landing.AGGREGATE_LANDING where FundName = 'NA'&quot;"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;select *&#10;from landing.Aggregate where FundName is null &quot;"/>
     <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
     <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
     <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
@@ -656,21 +648,21 @@
   </connection>
   <subjob>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBInput_6"/>
-    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="255;255;255"/>
-    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="47;47;47"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="0;0;0"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="247;247;247"/>
   </subjob>
   <subjob>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBInput_4"/>
-    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="255;255;255"/>
-    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="47;47;47"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="0;0;0"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="247;247;247"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_affb0649-555e-4eb1-95f9-121ceb1569e2"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>QfWK7HzGb/kQfMbDex4woZqg6J0aTEzEJRTo2Vogb/5W5SD5kZeRvuyhIhFEddlWj9TwFtk/QSW8&#13;
-M1olRqUwNQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_6424dfaa-395e-48de-a7a0-9fdfe1527e38"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>Jc9EZ6cKKt82AlUJlrz+4HTtRAfDTGkNTrsRmYghtFnROCwu6MijGTdI9/IJEqo0SJS5IrhQveVq&#13;
-GeZ5TkR67g==</DigestValue></Reference></SignedInfo><SignatureValue>Myzykvcv+4EiamwPvSHNJ1NSquTSFSI04UL1SX8S9ZmZ+1u/FCNQqrk9cHA4M6lijYYEXuKBAXav&#13;
-P+DAOxQIT4QBZqoTSKrghNU5hx2epYPuJ5GMVYGSC7ar25FOU4YHYk5eirsyR+570Q6TDurCeaEM&#13;
-2MtvaLB51hij0z7knKhkBiJCtvKoxS9XpLl9M7gzaBkwSNnMR2j0GECX40E23HLk2SXIqPZ5JJ9N&#13;
-NEBcCLtxAWTPX5yoaQkYAAj7kYTZbtmjNCG2o+SocV2tFMogIeYi3+20juO5bMv5bF01xJomAO3/&#13;
-MolGTgAOWaixbTYt75DBML77r37vnbjwPmKamA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_e4f46151-bf2a-4258-86c9-122aa30e37f0"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>7SmHnabFHyVEJCwyzS1msUomfulGuB+6CL7AdRVhyQyBRtyYbvRiArj1kDEn6KoF756zRDJZSq/j&#13;
+WgLF1Gvw8A==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_fd3b376d-c34d-41be-aa93-3008c8b1d0b0"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>4E/iq/EKkUbT72H3KQBSyWWDyV9Pjgnq42GYFWAdLT4N8UhiMapZ00fBlTC8Fj70buv69eO4PVfN&#13;
+W4sVHMMsHg==</DigestValue></Reference></SignedInfo><SignatureValue>KPk4ePfkXow+8Mcs8WZGqmmSRF74q7zATrvtoNdGb0KEkdX91ttxeZZRybPNqyqQW+tx6HANtc6q&#13;
+GQmBo364sqZ50qloQ9uvMR6CwmQBJIMk+mlWR39Wdxin4m7xZy+wU+Ds23hcHVTAPqiHiBTUkJMC&#13;
+KSMFe1g09ZvlX5XtadEtq4Fiq8aHGU/l8tQ5j5XQ/Y5vSyAGPVqOrpgayAaZtt8Pyde4HvHlUGgZ&#13;
+RDN+XcjIbIcEnGYQoCDA6ng6nQ5uDI9Zp58ifXM97Z4JeUhn3kvNDNUnAEROc4/hJbKUJGeOryPN&#13;
+HU9/9vTSUxBWDNbveDdAvG3NoPiUU9gNhXs6PA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -692,4 +684,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_6424dfaa-395e-48de-a7a0-9fdfe1527e38" Target="#_affb0649-555e-4eb1-95f9-121ceb1569e2"><Timestamp>2024-07-03 11:42:13</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_fd3b376d-c34d-41be-aa93-3008c8b1d0b0" Target="#_e4f46151-bf2a-4258-86c9-122aa30e37f0"><Timestamp>2024-07-03 11:36:39</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>

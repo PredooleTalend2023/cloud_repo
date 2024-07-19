@@ -107,10 +107,6 @@
     "type" : "job"
   },
   "relatedItems" : [ {
-    "id" : "_Ig6A0Dj6Ee-Lf_L9zPWogQ",
-    "version" : "Latest",
-    "type" : "property"
-  }, {
     "id" : "_Ig6A0Dj6Ee-Lf_L9zPWogQ - SIPTransactions",
     "version" : "Latest",
     "type" : "schema"
@@ -122,14 +118,6 @@
     "type" : "job"
   },
   "relatedItems" : [ {
-    "id" : "_Ig6A0Dj6Ee-Lf_L9zPWogQ",
-    "version" : "Latest",
-    "type" : "property"
-  }, {
-    "id" : "_JbyicDj_Ee-Lf_L9zPWogQ",
-    "version" : "Latest",
-    "type" : "property"
-  }, {
     "id" : "_Ig6A0Dj6Ee-Lf_L9zPWogQ - Investors",
     "version" : "Latest",
     "type" : "schema"
@@ -339,6 +327,33 @@
     "type" : "property"
   }, {
     "id" : "_gT4NanPyEe6r6fkQlRUOyQ - salesperson",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_DGEdgETnEe-zesGRLN6MaA",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_rZ9DEBKJEe-Z9bWIUD3MLg",
+    "version" : "Latest",
+    "type" : "mapper"
+  }, {
+    "id" : "_H4wpoAXfEe-EKrvRwtEITQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_gs5zABNkEe-Z9bWIUD3MLg",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_n4vX0AXgEe-EKrvRwtEITQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_n4vX0AXgEe-EKrvRwtEITQ - customers",
     "version" : "Latest",
     "type" : "schema"
   } ]
